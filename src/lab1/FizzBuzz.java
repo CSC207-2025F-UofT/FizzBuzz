@@ -6,6 +6,7 @@ package lab1;
 /**
  * Solve the lab1.FizzBuzz challenge.
  */
+/// 1010101
 class FizzBuzz {
 
     public static void main(String[] args) {
