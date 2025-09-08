@@ -1,5 +1,5 @@
 package lab1;
-
+//hhhh666
 /**
  * Solve the lab1.FizzBuzz challenge.
  */
@@ -12,7 +12,7 @@ class FizzBuzz {
             doFizzBuzz(i);
         }
     }
-
+//hhhh
     private static void doFizzBuzz(int i) {
         // Find out which numbers divide i.
         boolean divisibleBy3 = i % 3 == 0;
