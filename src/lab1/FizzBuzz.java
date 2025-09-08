@@ -2,6 +2,7 @@ package lab1;
 //hhhh666
 //hhhh777
 /// 888
+//999
 /**
  * Solve the lab1.FizzBuzz challenge.
  */
