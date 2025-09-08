@@ -1,5 +1,6 @@
 package lab1;
 //hhhh666
+//hhhh777
 /**
  * Solve the lab1.FizzBuzz challenge.
  */
