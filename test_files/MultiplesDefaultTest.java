@@ -12,7 +12,7 @@ public class MultiplesDefaultTest {
     //  copy this file into the test folder.
     @Test
     public void testDefault() {
-        assertEquals(466,
+        equals(466,
                 Multiples.multiples(),
                 "Multiples.multiples() is incorrect for default values");
     }
