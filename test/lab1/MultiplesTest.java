@@ -6,9 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
   Some test cases for Multiples.
  */
 public class MultiplesTest {
-//
-//     TODO: When you are ready to test task X,
-//      copy this file into the test folder.
+
 
     @Test
     public void testFifteen() {
