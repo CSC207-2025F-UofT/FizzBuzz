@@ -2,7 +2,7 @@ package lab1;
 
 public class Multiples {
 
-    // Task 1: main method modified to take parameters and return int result
+    // Task 1: 参数化并返回结果
     public static int main(int n, int a, int b) {
         int count = 0;
         for (int i = 1; i < n; i++) {
@@ -13,13 +13,13 @@ public class Multiples {
         return count;
     }
 
-    // Task 2: overloaded main method with no parameters, calls main with default values
+    // Task 2: 重载 main，提供默认值 (1000, 3, 5)
     public static int main() {
         return main(1000, 3, 5);
     }
 
-    // Optional: original Java psvm method to enable running and printing the answer
+    // 可选：真正可运行的入口，方便在 IDE 里运行测试
     public static void main(String[] args) {
-        System.out.println(main());  // prints result for default problem
+        System.out.println(main()); // 打印默认参数的结果
     }
 }
