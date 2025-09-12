@@ -6,7 +6,9 @@ public class Reduce {
         int count = 0;
         for (int d = 1; d * d <= n; d++) {
             if (n % d == 0) {
-                count += (d * d == n) ? 1 : 2;
+                int q = n / d;
+                if (d != 1 && d != n) count++;
+                if (q != 1 && q != n && q != d) count++;
             }
         }
         return count;
