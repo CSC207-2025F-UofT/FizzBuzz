@@ -1,20 +1,15 @@
 package lab1;
 
 public class Reduce {
-    public static int reduce(int n){
-        if (n < 0) {
-            throw new IllegalArgumentException("n must be non-negative");
-        }
-
-        while (n >= 10) {
-            int sum = 0;
-            while (n > 0) {
-                sum += n % 10;
-                n /= 10;
+    public static int reduce(int n) {
+        if (n <= 0) throw new IllegalArgumentException("n must be positive");
+        int count = 0;
+        for (int d = 1; d * d <= n; d++) {
+            if (n % d == 0) {
+                count += (d * d == n) ? 1 : 2;
             }
-            n = sum;
         }
-        return n;
+        return count;
     }
     public static void main(String[] args) {
         System.out.println(100);
