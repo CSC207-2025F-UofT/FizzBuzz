@@ -2,6 +2,7 @@ package lab1;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.testng.AssertJUnit.assertEquals;
 
 /*
   Some simple test cases for reduce.
@@ -42,5 +43,11 @@ public class ReduceTest {
         assertEquals(2,
                 Reduce.reduce(2),
                 "Reduce.reduce(2) is incorrect");
+    }
+
+    private static class Reduce {
+        public static int reduce(int i) {
+            return 0;
+        }
     }
 }
